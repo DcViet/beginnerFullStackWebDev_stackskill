@@ -1,6 +1,7 @@
-#this is first website then i learn to course "full stack web dev"
+#this is first website then I learn to course "full stack web dev" 
 #
 in this cource: Beginner Full Stack Web Development: HTML, CSS, React & Node
+#
 Getting Started With HTML
  
  Intro to Web Development (7:58)
