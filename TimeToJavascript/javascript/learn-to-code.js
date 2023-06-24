@@ -133,5 +133,102 @@ function area(length,width) {
     return length * width;
 }
 
-var area1 = area(10,15);
-console.log(area1);
+var rectangle = []
+ractangleAreas.push(area(10,15));
+rectangleAreas.push(area (14,2));
+rectangleAreas.push(area(4,5));
+
+console.log(rectangleAreas);
+
+var bankBalance = 500;
+function makeTransaction(priceOfSale) {
+    if (priceOfSale <= bankBalance) {
+        bankBalance -= priceOfSale;
+        console.log("Purchase Successful")
+    } else {
+        console.log("Insufficient Funds");
+    }
+}
+
+console.log(bankBalance);
+makeTransaction(79.00);
+
+console,log(bankBalance);
+makeTransaction("2.32");
+
+console.log(bankBalance);
+makeTransaction(450.00);
+
+var transaction = function(priceOfSale) {
+    if (priceOfSale <= bankBalance) {
+        bankBalance -= priceOfSale;
+        console.log("Purchase Successful")
+    } else {
+        console.log("Insufficient Funds");
+    }
+}
+
+var printCustomerName = function(first,last) {
+    console.log("First Name:" + first + "Last Name"+ last);
+}
+
+var applyForCreditCard = function(creditScore, soul) {
+    //call some function to process application
+}
+var bankOperation = [];
+
+bankOperation.push(transaction);
+bankOperation.push(printCustomerName);
+bankOperation.push(applyForCreditCard);
+
+//Javascript Object
+
+var student = {
+    firstName: "John",
+    lastName: "Parker",
+    age: 7
+};
+
+function student(firstName,lastName,age) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+}
+var student0 = {
+    firstName: "Jayne",
+    lastName: "Looo",
+    age: 7,
+    greeting: function() {
+        return "Hi, I'm" + this.firstName + "and I'm" + this.age + "years old.";
+    }
+};
+
+console.log(student0.greeting());
+//Creates a new empty object
+var student1 = new Object()
+student1.firstName = "John";
+student1.lastName = "Parker";
+student1.age = 7 ;
+
+var student2 = new Object()
+student1.firstName = "Zack";
+student1.lastName = "BoBo";
+student1.age = 5 ;
+
+var students = [];
+students.push(student0);
+students.push(student1);
+students.push(studen2);
+
+
+// console.log(student.firstName);
+// console.log(student.lastName);
+// console.log(student["firstName"]);
+// console.log(student["lastName"]);
+
+//var student = {firstName: "John",lastName: "Parker",age: 7};
+var students = ["John", "Jacob","Jingle","Heimer","Smith"]; 
+
+for (var index = 0; index < student.length; index ++) {
+    console.log(student[index]);
+}
