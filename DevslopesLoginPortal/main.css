@@ -19,10 +19,24 @@ img.signin-img {
     padding: 0 2rem 2rem;
     margin: auto;
     display: block;
-    width: 70%;
+    /* width: 70%; */
 }
 
 form.signin-form {
     max-width: 350px;
     margin: auto;
+}
+
+button.signin-btn {
+    color: #ffffff;
+    background-color: #d64829;
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+a.create-new-account {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
 }
