@@ -1,0 +1,28 @@
+body.signin-body {
+    background-color: #e6e6e6;
+}
+
+.container.signin-container {
+    margin-top: 8%;
+
+}
+
+.card.signin-card {
+    padding: 20px 0px 20px;
+    background-color: #f4f4ff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    -webkid-box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+}
+
+img.signin-img {
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+    width: 70%;
+}
+
+form.signin-form {
+    max-width: 350px;
+    margin: auto;
+}
