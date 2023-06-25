@@ -232,3 +232,26 @@ var students = ["John", "Jacob","Jingle","Heimer","Smith"];
 for (var index = 0; index < student.length; index ++) {
     console.log(student[index]);
 }
+
+//Javascript Bind
+// Alex Brown's
+this.car = "Honda Civic w/ Ugly Spoiler";
+
+var marksGarage = {
+  car :"Aston Martin",
+  getCar: function() {
+    return this.car;
+  }
+};
+
+console.log(marksGarage.getCar());
+
+var storeGetCarForLater = marksGarage.getCar;
+
+//Now work is over and Mark want his car
+
+console.log(storeGetCarForLater());//WTF
+
+var theRealGetCarFuntion = marksGarage.getCar.bind(marksGarage); //.bind(this)
+console.log(theRealGetCarFuntion());
+
