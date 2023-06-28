@@ -1,6 +1,5 @@
-#this is first website then I learn to course "full stack web dev" 
 #
-in this cource: Beginner Full Stack Web Development: HTML, CSS, React & Node
+> in this cource: Beginner Full Stack Web Development: HTML, CSS, React & Node
 #
 
 <div class="block-language-tx"><table>
