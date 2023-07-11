@@ -154,18 +154,18 @@
 <tr>
     <td>Intro to Node, Mongo, & REST APIs</td>
     <td colspan="4">
-        <img height="15" src="https://progress-bar.dev/50/?title=progress"/> Understanding Web Requests (17:12)<br>
-        Installing Node on macOS (7:49)<br>
-        All About JSON (10:40)<br>
-        Basics of Node (9:23)<br>
-        Node Modules (5:39)<br>
-        Building Your First API (16:58)<br>
-        Postman, GET & POST Requests (19:23)<br>
-        URL Parameters & Delete Requests (18:16)<br>
-        Installing MongoDB on macOS (5:41)<br>
-        Working With the Mongo Shell (12:18)<br>
-        Searching for Documents (8:04)<br>
-        Deletions & Documentation (4:24)<br>
+        <img height="15" src="https://progress-bar.dev/100/?title=progress"/> Understanding Web Requests (17:12)<br>
+        <img height="15" src="https://progress-bar.dev/100/?title=progress"/> Installing Node on macOS (7:49)<br>
+        <img height="15" src="https://progress-bar.dev/100/?title=complete"/> All About JSON (10:40)<br>
+        <img height="15" src="https://progress-bar.dev/100/?title=complete"/> Basics of Node (9:23)<br>
+        <img height="15" src="https://progress-bar.dev/100/?title=complete"/> Node Modules (5:39)<br>
+        <img height="15" src="https://progress-bar.dev/100/?title=complete"/> Building Your First API (16:58)<br>
+        <img height="15" src="https://progress-bar.dev/100/?title=complete"/> Postman, GET & POST Requests (19:23)<br>
+        <img height="15" src="https://progress-bar.dev/100/?title=complete"/> URL Parameters & Delete Requests (18:16)<br>
+        <img height="15" src="https://progress-bar.dev/100/?title=complete"/> Installing MongoDB on macOS (5:41)<br>
+        <img height="15" src="https://progress-bar.dev/100/?title=complete"/> Working With the Mongo Shell (12:18)<br>
+        <img height="15" src="https://progress-bar.dev/100/?title=complete"/> Searching for Documents (8:04)<br>
+        <img height="15" src="https://progress-bar.dev/50/?title=complete"/> Deletions & Documentation (4:24)<br>
         Swag Shop API: Project Creation (10:09)<br>
         Swag Shop API: Creating the Models (14:41)<br>
         Swag Shop API: Posting Products (12:55)<br>
